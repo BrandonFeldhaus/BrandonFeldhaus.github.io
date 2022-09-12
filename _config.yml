@@ -27,8 +27,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  BrandonFeldhaus
 
 # Build settings
-#remote_theme: riggraz/no-style-please
-theme: no-style-please
+remote_theme: riggraz/no-style-please
+#theme: no-style-please
 
 theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
