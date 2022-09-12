@@ -229,6 +229,10 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
+    no-style-please (0.4.7)
+      jekyll (~> 3.9.0)
+      jekyll-feed (~> 0.15.1)
+      jekyll-seo-tag (~> 2.7.1)
     nokogiri (1.13.1-arm64-darwin)
       racc (~> 1.4)
     octokit (4.22.0)
@@ -278,10 +282,11 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 222)
   jekyll-feed (~> 0.12)
+  no-style-please
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.5
+   2.3.20
