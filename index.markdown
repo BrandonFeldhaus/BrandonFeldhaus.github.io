@@ -3,6 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+permalink: /
 ---
-
-<iframe height="400" width="100%" frameborder="no" src="https://vmasc.shinyapps.io/from-hash-to-sa/"> </iframe>

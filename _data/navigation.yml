@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "R Shiny App"
+    url: /r-shiny/
+  - title: "QGIS Map"
+    url: /qgis-map/
+  - title: "VA Model"
+    url: https://google.com

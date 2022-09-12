@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Brandon Feldhaus
+title: VMASC Datathon
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Brandon Feldhaus Portfolio website.
@@ -27,8 +27,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  BrandonFeldhaus
 
 # Build settings
-remote_theme: riggraz/no-style-please
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #theme: no-style-please
+
+
+masthead_title: "VMASC Datathon"
+
+
 
 theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
@@ -38,6 +43,7 @@ theme_config:
 
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
